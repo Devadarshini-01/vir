@@ -5,6 +5,8 @@ sudo apt install cpu-checker
 sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils
 sudo systemctl start libvirtd
 sudo systemctl status libvirtd
+dd logged-in user : $ sudo usermod -aG libvirt $USER
+
 
 $ sudo dpkg -i CiscoPacketTracer822_amd64_signed.deb
 
